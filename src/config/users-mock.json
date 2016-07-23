@@ -1,0 +1,15 @@
+{
+
+  "users":[
+    {
+      "id":1,
+      "name":"Ahmed Mohmaed",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum est vel nisi dapibus commodo. Aliquam consequat nibh massa, ac finibus velit tincidunt at. Suspendisse vitae convallis libero. Sed eu feugiat erat. Nulla at lacus a sapien sodales lacinia. Nullam sodales nisi ex, vel ultrices felis feugiat eget. Morbi a ultrices sem."
+    },
+    {
+      "id":2,
+      "name":"Mohmaed",
+      "bio":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi interdum est vel nisi dapibus commodo. Aliquam consequat nibh massa, ac finibus velit tincidunt at. Suspendisse vitae convallis libero. Sed eu feugiat erat. Nulla at lacus a sapien sodales lacinia. Nullam sodales nisi ex, vel ultrices felis feugiat eget. Morbi a ultrices sem."
+    }
+  ]
+}

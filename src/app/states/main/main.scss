@@ -1,0 +1,71 @@
+
+.container-wrapper {
+  height: 100%;
+  width: 100%;
+  .header-wrapper {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    >div{
+      margin: 0 10px;
+    }
+    .app-icon-wrapper {
+      .fa {
+        font-size: 5rem;
+      }
+    }
+    .app-title {
+      width: 75%;
+      font-size: 2rem;
+    }
+    .app-menu{
+      width: 25%;
+      align-self: flex-end;
+      .fa {
+        font-size: 5rem;
+      }
+    }
+  }
+}
+
+@keyframes fade-in-left {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .app-features {
+    display: none;
+  }
+  .app-tryit-btn, .app-gitter-chat-btn {
+    animation-delay: 0s !important;
+    font-size: 1rem !important;
+    min-width: 250px !important;
+  }
+}

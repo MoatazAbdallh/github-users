@@ -1,0 +1,52 @@
+{
+  "name": "githubUsers",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "browser-sync": "*",
+    "browser-sync-spa": "*",
+    "chalk": "*",
+    "del": "*",
+    "eslint-plugin-angular": "*",
+    "gulp": "*",
+    "gulp-angular-filesort": "*",
+    "gulp-angular-templatecache": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-eslint": "*",
+    "gulp-filter": "*",
+    "gulp-flatten": "*",
+    "gulp-inject": "*",
+    "gulp-load-plugins": "*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-ng-annotate": "*",
+    "gulp-protractor": "*",
+    "gulp-rename": "*",
+    "gulp-replace": "*",
+    "gulp-rev": "*",
+    "gulp-rev-replace": "*",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-useref": "*",
+    "gulp-util": "*",
+    "http-proxy-middleware": "*",
+    "karma": "*",
+    "karma-angular-filesort": "*",
+    "karma-coverage": "*",
+    "karma-jasmine": "*",
+    "karma-ng-html2js-preprocessor": "*",
+    "karma-phantomjs-launcher": "*",
+    "lodash": "*",
+    "main-bower-files": "*",
+    "uglify-save-license": "*",
+    "wiredep": "*",
+    "wrench": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
