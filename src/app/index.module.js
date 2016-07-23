@@ -1,4 +1,4 @@
 (function () {
     'use strict';
-    angular.module('githubUsers', ['ui.router', 'toastr']);
+    angular.module('githubUsers', ['ui.router', 'toastr','infinite-scroll']);
 })();

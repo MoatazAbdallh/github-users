@@ -1,2 +1,4 @@
-<div >
+<div infinite-scroll="vm.loadMoreUsers()" class="user-widget-wrapper">
+  <div ng-repeat="user in vm.usersList" ng-bind="user.name" class="user-widget-name-wrapper"
+       ng-click="vm.userDetailAction(user)"></div>
 </div>

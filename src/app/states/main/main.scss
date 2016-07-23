@@ -3,12 +3,13 @@
   height: 100%;
   width: 100%;
   .header-wrapper {
-    margin: 20px;
+    padding: 20px;
     width: 100%;
     display: flex;
     align-items: center;
     color: #fff;
-    >div{
+    border-bottom: 2px solid #fff;
+    > div {
       margin: 0 10px;
     }
     .app-icon-wrapper {
@@ -17,14 +18,26 @@
       }
     }
     .app-title {
-      width: 75%;
+      width: 90%;
       font-size: 2rem;
     }
-    .app-menu{
-      width: 25%;
+    .app-menu {
+      width: 10%;
       align-self: flex-end;
       .fa {
         font-size: 5rem;
+      }
+    }
+  }
+  .body-wrapper {
+    margin: 20px;
+    height: 86%;
+    .user-list-wrapper {
+      width: 25%;
+      height: 100%;
+      border-right: 2px solid #fff;
+      user-widget-list {
+        width: 100%;
       }
     }
   }
