@@ -1,2 +1,4 @@
-<div >
+<div class="user-widget-wrapper">
+  <div ng-repeat="user in vm.usersList" ng-bind="user.name" class="user-widget-name-wrapper"
+       ng-click="vm.getUserInfo(user,$index)" ng-class="{'user-widget-selected':$index==vm.selectedIndex}"></div>
 </div>
