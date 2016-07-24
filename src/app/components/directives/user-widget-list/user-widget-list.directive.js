@@ -16,12 +16,18 @@
       controllerAs: 'vm',
       bindToController: true
     };
-    function userWidgetListController() {
+    /* @ngInject */
+    function userWidgetListController($timeout,$scope) {
       var vm = this;
-      vm.loadMoreUsers = loadMoreUsers;
-    }
-    function loadMoreUsers(){
+      vm.getUserInfo = getUserInfo;
+
+      function getUserInfo(user, index) {
+        vm.selectedIndex = index;
+        vm.userDetailAction({user: user})
+      }
 
     }
+
+
   }
 })();

@@ -1,17 +1,19 @@
 <div class="container-wrapper">
-    <div class="header-wrapper">
-        <div class="app-icon-wrapper">
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </div>
-        <div class="app-title">Github Users</div>
-        <div class="app-menu">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
+  <div class="header-wrapper">
+    <div class="app-icon-wrapper">
+      <i class="fa fa-github" aria-hidden="true"></i>
     </div>
-    <div class="body-wrapper">
-        <div class="user-list-wrapper">
-            <user-widget-list users-list="vm.githubUsers" user-detail-action="vm.showUserDetail()"></user-widget-list>
-        </div>
-        <div class="user-info-wrapper"></div>
+    <div class="app-title">Github Users</div>
+    <div class="app-menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
+  </div>
+  <div class="body-wrapper">
+    <div infinite-scroll="vm.loadMoreUsers()" threshold="200" can-load="true" class="user-list-wrapper">
+      <div user-widget-list users-list="vm.githubUsers" user-detail-action="vm.showUserDetail(user)"></div>
+    </div>
+    <div class="user-info-wrapper">
+      <user-widget-detail user-detail="vm.user"></user-widget-detail>
+    </div>
+  </div>
 </div>
